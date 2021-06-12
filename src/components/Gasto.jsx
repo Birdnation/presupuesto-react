@@ -11,7 +11,7 @@ const Gasto = ({ gasto }) => {
 };
 
 Gasto.propTypes = {
-  gastos: PropTypes.object.isRequired,
+  gastos: PropTypes.object,
 };
 
 export default Gasto;
